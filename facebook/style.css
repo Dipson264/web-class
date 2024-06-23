@@ -1,0 +1,77 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+    background-color: gainsboro;
+    height: 5vh;
+    border: 2px solid black;
+}
+.main{
+    border: 2px solid black;
+    display: flex;
+    
+}
+.icons{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+    margin: auto;
+}
+.extra{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 5%;
+}
+.logosearchbar{
+    border: 2px solid black;
+  
+}
+*{
+    margin: 0;
+}
+.medias{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    border: 2px solid black;
+    width: 25%;
+    height: 93vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.stories{
+    border: 2px solid black;
+    height: 200px;
+}
+.herosection{
+    
+    width: 50%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.status{
+    border: 2px solid black;
+    
+}
+.statusin{
+    width: 100%;
+}
+.contacthead{
+    display: flex;
+}
+.post{
+    border: 2px solid black;
+    height:auto;
+    width: auto;
+    display: flex;
+   
+}
+.contacts{
+    border: 2px solid black;
+    width: 25%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

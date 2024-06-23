@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+
+    <style>
+        .parent{
+            border: 2px solid black;
+            display: flex;
+            height: 90px;
+
+        }
+
+        .child1{
+            border: 2px solid blue;
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            /* align-content: center; */
+            font-size: 3rem;
+        
+            
+        }
+        .child2{
+            border: 2px solid red;
+            display: flex   ;
+            align-content: flex-start;
+            width: 70%;
+            background-color: brown;
+            
+        }
+
+        #nav{
+            border: 2px solid black;
+            list-style: none;
+            width: 100%;
+            background-color: cadetblue;
+            display: flex;
+            justify-content: space-evenly;
+        
+        }
+     
+
+    </style>
+
+
+
+
+</head>
+
+<body>
+    
+    <div class="parent">
+        <div class="child1">logo</div>
+        <div class="child2">
+            <ul id="nav">
+                <li>home</li>
+                <li>menu</li>
+                <li>order</li>
+                <li>class</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

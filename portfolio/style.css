@@ -1,0 +1,55 @@
+.inside-button{
+    display: flex;
+    
+}
+.hero-content-box{
+    width: 50%;
+    background-color: rebeccapurple;
+    height: 50vh;
+}
+.photobox{
+    width: 50%;
+    height: 50vh;
+    background-color:darkgoldenrod;
+}
+.container1{
+    display: flex;
+    background-color: cadetblue;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#links{
+    text-decoration: none;
+    list-style: none;
+    display: grid;
+    grid-template-columns:repeat(4,auto);
+  
+    
+}
+
+nav{
+    display: grid;
+    height: 80px;
+    grid-template-columns: auto auto;
+    background-color: burlywood; 
+
+}
+.logo{
+    border: 2px solid black;
+    justify-self: stretch;
+    align-self: stretch;
+    text-align: center;
+    align-content: center;
+
+}
+.navlinks{
+    border: 2px solid black;
+    justify-self: stretch;
+    align-self: stretch;
+    text-align: center;
+    align-content: center;
+}
+*{
+    margin: 0;
+}

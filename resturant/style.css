@@ -1,0 +1,338 @@
+.menu{
+    background-color: aqua;
+    height: 100vh;
+    
+}
+
+
+
+
+
+body{
+    font-family: heebo;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+*{
+    margin: 0
+}
+.exp{
+    font-size: oswald;
+}
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+
+}
+
+.picture1{
+    height: 50%;
+    width: 50%;
+    background-color: wheat;
+    /* display: flex;
+    justify-content: end; */
+    
+}
+.p1{
+    
+   height: 150px;
+   width: 150px; 
+   background-color: blue;
+    margin:auto;
+   
+   
+  
+}
+
+
+.picture2{
+    height: 50%;
+    width: 50%;
+
+}
+
+
+
+.picture3{
+    height: 50%;
+    width: 50%;
+    background-color:cadetblue;
+}
+.picture4{
+    height: 50%;
+    width: 50%;
+    background-color: rebeccapurple;
+}
+.textcon{
+    align-content: center;
+}
+.year{
+    margin-right: 15px;
+}
+.vline{
+    width: 4px;
+    height: 54px;
+    background-color: orange;
+    margin-right: 20px;
+    padding-top: 20px;
+    
+}
+.abt{
+    display: flex;
+}
+.hline{
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.experience-container{
+    display: flex;
+    width: 50%;
+   
+}
+.container{
+    display: flex;
+}
+.masters{
+    width: 50%;
+    display: flex;
+}
+.aboutus{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    font-size: 23px;
+    
+
+}
+.pictures{
+    width: 50%;
+    background-color: aqua;
+}
+.details{
+    width: 50%;
+    padding: 30px;
+    
+    
+  
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    /* background-color: aquamarine; */
+    background-color: rgb(14, 23, 44);
+
+    
+}
+.navlinks{
+    width: 40%;
+    font-family: beebo;
+    font-size: larger;
+   
+}
+.navlinks ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    color: orange;
+    
+    width: 13%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    background-image: url("https://themewagon.github.io/restoran/img/bg-hero.jpg");
+    background-color: rgb(81, 104, 173);
+    background-blend-mode:multiply ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1{
+    font-family: oswald;
+    font-size: 64px;
+    
+}
+.intro{
+    align-content: space-around;
+    padding-left: 5%;
+    
+    height: 60%;
+    width: 50%;
+    color: white;
+    
+    
+}
+.photo{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* justify-items: center; */
+    
+    
+}
+
+
+
+#hero1{
+    animation-name: rotate;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    
+}
+@keyframes rotate {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    25%{
+        transform: rotateZ(90deg);
+    }
+    50%{
+        transform: rotateZ(180deg);
+    }
+    75%{
+        transform: rotateZ(270deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+
+    }
+    
+}
+
+img{
+    height: 80%;
+    
+   
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:100px ;
+    margin-bottom: 100px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+main{
+    align-content: space-between;
+    height: 100%;
+    
+}
+.chefs{
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    background-color: white;
+    width: 300px;
+    height:250px;
+    align-content: space-around;
+    justify-content: space-around;
+    transition-duration: 1s;
+    padding: 20px;
+   
+ 
+}
+.chefs:hover{
+    height: 350px;
+    width: 400px;
+    font-size: 30px;
+    background-color: red;
+
+    color: white;
+}
+.qualityfood{
+    font-size: 20px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    background-color: white;
+    width: 300px;
+    height:250px;
+    align-content: space-around;
+    justify-content: space-around;
+    transition-duration: 1s;
+    padding: 20px;
+}
+.qualityfood:hover{
+    height: 350px;
+    width: 400px;
+    font-size: 30px;
+    background-color: red;
+
+    color: white;
+}
+.onlineorder{
+    font-size: 20px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    background-color: white;
+    width: 300px;
+    height:250px;
+    align-content: space-around;
+    justify-content: space-around;
+    transition-duration: 1s;
+    padding: 20px;
+}
+.onlineorder:hover{
+    height: 350px;
+    width: 400px;
+    font-size: 30px;
+    background-color: red;
+    transition-duration: 1s;
+    color: white;
+}
+.help{
+    font-size: 20px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    background-color: white;
+    width: 300px;
+    height:250px;
+    align-content: space-around;
+    justify-content: space-around;
+    transition-duration: 1s;
+    padding: 20px;
+}
+.help:hover{
+    height: 350px;
+    width: 400px;
+    font-size: 30px;
+    background-color: red;
+
+    color: white;
+}
+#book{
+    background-color:orange;
+    
+    
+}
+.sercvicelogos{
+    color: gold;
+}
+h5{
+    font-size: large;
+}
+
+
+
